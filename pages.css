@@ -18,6 +18,9 @@
 .reading-grid .aside{max-width:23ch;color:var(--muted);font-size:17px}
 .reading-grid .aside p{font-size:17px}
 .reading-grid .bodycopy p{margin-bottom:1.4em}
+.concept-figure{margin:0 0 34px;max-width:960px}
+.concept-figure img{display:block;width:100%;height:auto;aspect-ratio:960/500}
+.concept-figure figcaption{margin-top:12px;font-size:14px;line-height:1.5;color:var(--muted)}
 .section-links{display:flex;gap:20px;flex-wrap:wrap;margin-top:35px}
 .section-links a,.text-link{font-weight:700;text-underline-offset:5px}
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:40px 0 0}

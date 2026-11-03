@@ -19,6 +19,7 @@ body{background:#fff;color:var(--ref-ink);font-size:16px}
 .topics{grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(26px,4.5vw,72px)}
 .topic,.topic:nth-child(1),.topic:nth-child(2),.topic:nth-child(3){grid-column:auto;min-height:0;padding:0;background:none;color:var(--ref-ink);display:block}
 .topic h3{font-size:21px;line-height:1.25;letter-spacing:-.035em;color:var(--ref-blue);margin:0 0 13px}.topic h3 .translation{font-size:.78em;line-height:1.45;margin-top:5px;color:var(--ref-ink)}.topic p{font-size:15px;line-height:1.58;color:#414b55}.topic p .translation{font-size:.95em;color:#5a6571;margin-top:10px}
+.topic-figure{margin:20px 0 0;max-width:100%}.topic-figure a,.topic-figure img{display:block;width:100%}.topic-figure img{height:auto}
 .about{background:var(--ref-soft)}.about .axis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(40px,7vw,110px)}.about .axis>div:last-child{grid-column:1;grid-row:1}.about .side{grid-column:2;grid-row:1;padding-top:0}
 .about h2,.diagram-band h2,.publications h2,.contact h2{font-size:clamp(30px,3.3vw,46px);margin-bottom:19px}.about .lead{font-size:21px}.bodycopy p{font-size:16px}.facts{grid-template-columns:1fr;gap:18px}.facts div{border:0;padding:0}.facts dd{font-size:17px}
 .diagram-band{background:#fff;color:var(--ref-ink);padding-top:66px;padding-bottom:65px}.diagram-band h2{max-width:none}.diagram-band .axis{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}.diagram-band p{font-size:16px}.concept-figure img{max-height:490px}

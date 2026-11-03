@@ -1,4 +1,5 @@
-/* Unpublished reference-layout concept: screenshot-inspired structure, IDAS content. */
+/* IDAS reference-layout design: shared public styles. */
+.empty-page{min-height:45vh;background:#fff}
 :root{--ref-ink:#20252d;--ref-band:#1c2029;--ref-soft:#f2f3f4;--ref-blue:#12538c}
 body{background:#fff;color:var(--ref-ink);font-size:16px}
 .nav,.page-header .nav{min-height:88px;padding-top:10px;padding-bottom:10px;gap:24px;background:#fff}

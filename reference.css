@@ -28,6 +28,7 @@ body{background:#fff;color:var(--ref-ink);font-size:16px}
 /* Secondary pages keep their content, with the same quiet strip/alternating rhythm. */
 .page-header{background:#fff}.page-title{width:100%;max-width:none;background:var(--ref-band);color:#fff;display:block;text-align:center;padding:16px var(--gutter) 17px}.page-title p{color:#dbe4ed;font-size:15px;margin:0 auto 8px}.page-title h1{color:#fff;font-size:clamp(45px,5vw,72px);line-height:1.04}.page-title h1 .translation{font-size:.38em;color:#dce8f2;margin-top:8px}
 .page-title:not(:has(h1 .translation)){min-height:var(--ref-title-height);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0}
+.page-title:not(:has(h1 .translation)) p{margin:8px auto 0}
 .page-title:not(:has(>p)){padding-top:21px;padding-bottom:21px}
 .page-title:has(h1 .translation){padding-top:9px;padding-bottom:9px}
 .page-section{padding-top:75px;padding-bottom:75px;background:#fff}.page-section:nth-child(even){background:var(--ref-soft)}.reading-grid h2,.page-section h2{font-size:clamp(32px,3.6vw,48px)}

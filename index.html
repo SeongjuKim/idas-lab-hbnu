@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="hallmark.css">
 <link rel="stylesheet" href="reference.css">
+<link rel="stylesheet" href="poster-popup.css">
 </head>
 <body>
 <a class="skip" href="#main">본문으로 이동</a>
@@ -22,6 +23,8 @@
 
 <section class="contact wrap" id="contact"><div class="axis"><div><h2>Work with IDAS</h2></div><div class="right"><p>We welcome enquiries from students interested in AI-driven engineering design and advanced packaging research.</p><a class="email" href="mailto:seongju@hanbat.ac.kr?subject=Inquiry%20to%20IDAS%20Lab">seongju@hanbat.ac.kr</a><address>Laboratory / Hanbat National University, N13-604<br>Professor's office / Hanbat National University, N13-802<br>125 Dongseo-daero, Yuseong-gu, Daejeon, Republic of Korea<br>Tel. +82-42-828-8804</address></div></div><footer><div><img class="footer-mark" src="assets/idas-logo.png" width="1858" height="643" alt="IDAS"></div><div>Hanbat National University<br><a href="contact.html">Contact details</a></div></footer></section>
 </main>
+<dialog id="poster-dialog" class="poster-dialog" aria-labelledby="poster-dialog-title"><div class="poster-dialog-inner"><div class="poster-dialog-header"><h2 id="poster-dialog-title">IDAS Lab · Open Lab</h2><button type="button" class="poster-dialog-close" data-poster-close aria-label="Close popup">×</button></div><div class="poster-dialog-content"><img src="assets/idas-open-lab-poster.png" alt="IDAS 연구실 소개 및 오픈랩 안내 포스터" width="1264" height="1727"></div><div class="poster-dialog-footer"><label><input id="poster-hide-today" type="checkbox">오늘 하루 보지 않기</label><a href="assets/idas-open-lab-poster.pdf" target="_blank" rel="noopener noreferrer">PDF로 크게 보기 ↗</a></div></div></dialog>
+<script src="poster-popup.js"></script>
 <script>
 const menu=document.querySelector('.menu'),links=document.querySelector('.navlinks');menu.addEventListener('click',()=>{const opened=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!opened));links.classList.toggle('open',!opened)});links.addEventListener('click',e=>{if(e.target.closest('a')){links.classList.remove('open');menu.setAttribute('aria-expanded','false')}});
 </script>
